@@ -16,5 +16,5 @@ Salvar repositório com as configurações que identifiquei ao longo do uso do n
 ## Como usar 
 - Instalar o [vim-plug](https://github.com/junegunn/vim-plug)
 - Apos instalado iniciar a instalação do plugins no init.vim com :PlugInstall
-- Existe plugins que necessitam dependência,caso começar acusar erro,corrigi elas. Pode facilmente encontrar os plugins todas seguem <nome do usuario no githug>/<repositorio>
+- Existe plugins que necessitam dependência,caso começar acusar erro,corrigi elas. Pode facilmente encontrar os plugins todas seguem  principio {nome do usuario no githug}/{repositorio}
  - [Material util](https://betterprogramming.pub/setting-up-neovim-for-web-development-in-2020-d800de3efacd)
