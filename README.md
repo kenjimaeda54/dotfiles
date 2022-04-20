@@ -3,7 +3,7 @@ Minhas configuracoes NVIM
 
 
 ## Motivacao
-Salvar repositorio com as configuracoes que identifiquei ao longo do uso do nvim
+Salvar repositório com as configurações que identifiquei ao longo do uso do nvim
 
 ## Fetaure
 - Abrir terminal com ctrl + n
