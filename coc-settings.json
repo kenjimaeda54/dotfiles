@@ -7,7 +7,17 @@
     "javascriptreact",
     "typescript.tsx"
   ],
-  "tslint.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.nodePath": ".yarn/sdks",
+  "workspace.workspaceFolderCheckCwd": false,
+  "tsserver.tsdk": ".yarn/sdks/typescript/lib",
+  "diagnostic.errorSign": "❌",
+  "diagnostic.warningSign": "⚠️ ",
+  "diagnostic.infoSign": "⚠️ ",
+  "javascript.suggestionActions.enabled": false,
+  "javascript.validate.enable": false,
+  "css.validate": false,
+  "scss.validate": false,
   "tslint.autoFixOnSave": true,
   "eslint.filetypes": [
     "javascript",
@@ -31,6 +41,12 @@
   "tsserver.formatOnType": true,
   "coc.preferences.formatOnType": true,
   "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    },
     "ccls": {
       "command": "ccls",
       "filetypes": ["c", "cpp", "objc", "objcpp"],
