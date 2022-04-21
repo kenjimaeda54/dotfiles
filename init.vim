@@ -41,7 +41,12 @@ let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
 let g:ale_linters_explicit = 1
 autocmd BufNewFile,BufRead */recipes/*.rb set ft=chef syntax=ruby
 
-
+" abrir o terminal
+function! OpenTerminal()
+      split term://zsh
+      resize 10
+endfunction
+nnoremap <c-n> :call OpenTerminal()<CR>
 
 
 " para coc  para preicsa isntalar o tssserver CocInstall  coc-tsserver
